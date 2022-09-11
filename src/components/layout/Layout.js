@@ -1,11 +1,11 @@
 import MainNavigation from "./MainNavigation";
-import classes from "./Layout.module.css";
+import BackgroundImage from "./BackgroundImage";
 
-function Layout(props) {
+function Layout() {
   return (
     <div>
       <MainNavigation />
-      <main className={classes.main}>{props.children}</main>
+      <BackgroundImage />
     </div>
   );
 }

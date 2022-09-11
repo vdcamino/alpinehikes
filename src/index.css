@@ -4,8 +4,7 @@
 
 body {
   font-family: sans-serif;
-  margin: 3rem;
-  background-color: #dce7d3;
+  background-color: whitesmoke;
 }
 
 h1,
@@ -15,7 +14,6 @@ h2 {
 
 .btn {
   font: inherit;
-  padding: 0.5rem 1.5rem;
   cursor: pointer;
   border-radius: 4px;
   background-color: #800040;
@@ -44,10 +42,6 @@ h2 {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   width: 20rem;
-}
-
-.actions {
-  text-align: right;
 }
 
 .modal {

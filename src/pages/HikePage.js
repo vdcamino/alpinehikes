@@ -1,8 +1,8 @@
 function HikePage() {
   return (
-    <section>
+    <div>
       <h1>Page of a specific hike</h1>
-    </section>
+    </div>
   );
 }
 
